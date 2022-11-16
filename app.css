@@ -57,7 +57,17 @@ h2 {
     background: #c59d5f;
     color: #fff;
 }
-
+@media screen and (min-width: 1200px) {
+    .food-menu{
+        width: 95vw !important;
+        grid-template-columns: 1fr 1fr !important;
+    }
+}
+@media screen and (min-width: 800px) {
+    body{
+        font-size: 1rem !important;
+    }
+}
 @media screen and (max-width: 1200px) {
     .food-menu{
         margin: 0px auto !important;
@@ -90,9 +100,10 @@ h2 {
 }
 
 .food-menu {
+    width: 90vw;
     display: grid;
     gap: 3rem 2rem;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     max-width: 1170px;
     margin: 0px auto;
     justify-content: center;

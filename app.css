@@ -99,6 +99,26 @@ h2 {
         height: 200px !important;
     }
 }
+@media screen and (max-width: 425px) {
+    .menu-btn-cont{
+        overflow-x: scroll;
+        justify-content: space-between;
+        margin: 0rem 1.5rem 4rem 0.8rem;
+    }
+    .menu-btn-cont::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+    }
+    .menu-btn{
+        margin: 0px 4px;
+    }
+    .menu-item{
+        grid-template-columns: 283px !important;
+    }
+    .photo{
+        width: 84vw !important;
+    }
+}
 
 .food-menu {
     width: 90vw;

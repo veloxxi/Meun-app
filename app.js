@@ -1,4 +1,4 @@
-// get only unique categories - HARDEST ONE
+// get only unique categories
 // iterate over categories return buttons
 // make sure to select buttons when they are available
 
@@ -93,11 +93,8 @@ const container = document.querySelector(".menu-btn-cont");
 window.addEventListener("DOMContentLoaded", function () {
   displayMenuItems(menu);
   displayMenuButtons();
-  
 });
-   
-  
-  
+
 function displayMenuItems(menuItems) {
   let displayMenu = menuItems.map(function (item) {
     // console.log(item);
@@ -155,5 +152,3 @@ function displayMenuButtons() {
     });
   });
 }
-  
-  

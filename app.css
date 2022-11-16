@@ -51,6 +51,7 @@ h2 {
     font-size: 1rem;
     letter-spacing:1px;
     transition:  all 0.3s linear;
+    text-transform: capitalize;
 }
 
 .menu-btn:hover{
@@ -74,7 +75,7 @@ h2 {
         grid-template-columns: auto !important;
     }
     .menu-item{
-        gap: 0rem 1.25rem !important;
+        gap: 0px 1.77rem !important;
         grid-template-columns: 225px 1fr !important;
         line-height: 24px !important;
     }
@@ -111,7 +112,7 @@ h2 {
 
 .menu-item {
     display: grid;
-    gap: 0 1.25rem;
+    gap: 0px 1.77rem;
     grid-template-columns: 225px 1fr;
     justify-content: center;
     max-width: 40rem;
@@ -138,6 +139,7 @@ h4{
     letter-spacing: 4px;
     line-height: 16px;
     margin: 0px 0px 8px;
+    text-transform: capitalize;
 }
 .item-text{
     font-family: 'Open Sans', sans-serif;

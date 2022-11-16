@@ -103,7 +103,7 @@ h2 {
     .menu-btn-cont{
         overflow-x: scroll;
         justify-content: space-between;
-        margin: 0rem 1.5rem 4rem 0.8rem;
+        margin: 0rem 1.5rem 4rem 0.79rem;
     }
     .menu-btn-cont::-webkit-scrollbar{
         width: 0;
@@ -113,7 +113,7 @@ h2 {
         margin: 0px 4px;
     }
     .menu-item{
-        grid-template-columns: 375px !important;
+        grid-template-columns: auto!important;
     }
     .photo{
         width: 98% !important;

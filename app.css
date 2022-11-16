@@ -113,10 +113,10 @@ h2 {
         margin: 0px 4px;
     }
     .menu-item{
-        grid-template-columns: 283px !important;
+        grid-template-columns: 375px !important;
     }
     .photo{
-        width: 84vw !important;
+        width: 98% !important;
     }
 }
 
